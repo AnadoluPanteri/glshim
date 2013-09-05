@@ -1,0 +1,20 @@
+libglshim (0.1-maemo3) unstable; urgency=low
+
+  * Can be used with freeglut3 / freeglut3-dev
+   -libglshim provides libgl1
+   -libglsim-dev provies libgl-dev
+
+ -- Aapo Rantalainen <aapo.rantalainen@gmail.com>  Tue, 06 Aug 2013 13:23:31 +0200
+
+libglshim (0.1-maemo2) unstable; urgency=low
+	
+  *Add: dh_makeshlibs
+
+ -- Aapo Rantalainen <aapo.rantalainen@gmail.com>  Mon, 05 Aug 2013 21:34:31 +0200
+
+libglshim (0.1-maemo1) unstable; urgency=low
+	
+  * Initial version
+
+ -- Aapo Rantalainen <aapo.rantalainen@gmail.com>  Sun, 04 Aug 2013 15:47:31 +0200
+
