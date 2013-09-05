@@ -1,0 +1,15 @@
+build-stamp
+build/
+debian/files
+debian/libglshim-dev.debhelper.log
+debian/libglshim-dev.substvars
+debian/libglshim-dev/
+debian/libglshim.debhelper.log
+debian/libglshim.postinst.debhelper
+debian/libglshim.postrm.debhelper
+debian/libglshim.substvars
+debian/libglshim/
+debian/libglshim0.debhelper.log
+debian/libglshim0.substvars
+debian/*glshim*/
+debian/*glshim*
