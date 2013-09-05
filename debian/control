@@ -1,12 +1,16 @@
-Source: libglshim
+Source: glshim
 Section: libs
 Priority: optional
-Maintainer: Aapo Rantalainen <aapo.rantalainen@gmail.com>
-Build-Depends: debhelper (>> 5.0.0), cmake, libx11-dev, libgles1-sgx-img-dev [armel arm], libgles2-sgx-img-dev [armel arm]
+Maintainer: Philippe Coval <rzr@gna.rg>
+XSBC-Original-Maintainer-Fremantle: Aapo Rantalainen <aapo.rantalainen@gmail.com>
+Build-Depends: debhelper (>> 5.0.0), cmake,
+  libx11-dev,
+  libgles1-sgx-img-dev [armel arm], libgles2-sgx-img-dev [armel arm],
+  libsdl1.2-dev
 Standards-Version: 3.7.2
 XSBC-Bugtracker: mailto:aapo.rantalainen@gmail.com
 
-Package: libglshim
+Package: libglshim0
 Architecture: any
 Replaces: libgl1
 Provides: libgl1
@@ -16,7 +20,7 @@ Description: GL to GLES
 
 Package: libglshim-dev
 Architecture: any
-Depends: ${shlibs:Depends}, libglshim
+Depends: ${shlibs:Depends}, libglshim0
 Replaces: libgl-dev
 Provides: libgl-dev
 Conflicts: libgl-dev
