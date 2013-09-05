@@ -1,3 +1,10 @@
+glshim (0.0.0-0~rzr1) harmattan; urgency=low
+
+  * Non-maintainer upload.
+  * http://rzr.online.fr/q/opengles
+
+ -- Philippe Coval <rzr@gna.org>  Thu, 05 Sep 2013 07:16:27 +0200
+
 libglshim (0.1-maemo3) unstable; urgency=low
 
   * Can be used with freeglut3 / freeglut3-dev
